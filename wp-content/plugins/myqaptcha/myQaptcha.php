@@ -12,8 +12,8 @@ License: GPL v2 - http://www.gnu.org/licenses/gpl.html
 function my_scripts_method() {
     wp_deregister_script( 'jquery' );
 	wp_deregister_script( 'jquery ui' );
-    wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js');
-	wp_register_script( 'jquery ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js');	
+    wp_register_script( 'jquery', 'http://libs.baidu.com/jquery/1.7.1/jquery.min.js');
+	wp_register_script( 'jquery ui', 'https://libs.baidu.com/jqueryui/1.8.16/jquery-ui.min.js');	
     wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'jquery ui' );
 } 
